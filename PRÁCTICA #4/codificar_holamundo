@@ -1,0 +1,8 @@
+#+TITLE: Bash_powershell
+
+#+BEGIN_SRC bash
+echo "Hola_mundo" | base64
+#+END_SRC
+
+
+
