@@ -1,0 +1,13 @@
+(
+#identificar tu ip publica y privada
+
+ifconfig | base64 
+curl ifconfig.me | base64 
+
+#nmap
+
+nmap -sP 189.218.43.212/24 | base64
+nmap --script=http-auth-finder www.twitter.com | base64
+nmap -sP 127.0.1.1/24 | base64 
+
+) > res_pract6.txt
